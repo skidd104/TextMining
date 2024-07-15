@@ -15,10 +15,10 @@ library(httpuv)
 
 install.packages("ROAuth")
 #set the credentials
-CONSUMER_SECRET <- 'zHHyEKJc2AEvp872tXRMShF6bM1LpzG0R5AsfPgrCBn5uSqozI'
-CONSUMER_KEY <- 'u57YAhkHFdVvXIcbYOKb1xEVT'
-ACCESS_SECRET <- 'gADsM08Qkvl8yniRxyFz8Ldna6ngtVV2L6wApwDyTHcSu'
-ACCESS_TOKEN <- "1533805509161017345-mZfuyLWStOrp5EH9qYSTtPZQ8O0Aev"
+CONSUMER_SECRET <- ''
+CONSUMER_KEY <- ''
+ACCESS_SECRET <- ''
+ACCESS_TOKEN <- ""
 
 #connect to twitter app
 setup_twitter_oauth(consumer_key = CONSUMER_KEY,
